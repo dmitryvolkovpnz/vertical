@@ -104,6 +104,10 @@
     font-size: 2rem;
     font-weight: bold;
   }
+  .intro-project__subtitle{
+    font-size: 1rem;
+    font-weight: normal;
+  }
   .intro-project__title .intro-project__title--highlight {
     color: var(--color-bg-orange);
   }
@@ -160,12 +164,30 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
+  .footer-cta form{
+    background-color:#fff;
+    padding: 5px 10px;
+    border-radius: var(--bs-border-radius);
+  }
+
   .footer-cta .form-control {
     max-width: 300px;
   }
   .footer-cta__btn {
-    background-color: var(--color-text-white);
-    color: var(--color-bg-orange);
+    background-color: var(--color-bg-orange);
+    color: var(--color-text-white);
     border: none;
     margin-left: 10px;
+  }
+
+  .footer-cta__btn:hover{
+    background-color: var(--color-bg-orange);
+  }
+
+  .form-control{
+    border: var(--bs-border-width) solid #fff;
+  }
+
+  input { 
+    outline: none !important;  
   }
